@@ -1,0 +1,49 @@
+#play {
+    width: 200px;
+    line-height: 75px;
+    position: absolute;
+    background-color: rebeccapurple;
+    top: 340px;
+    left: 240px;
+    color: wheat;
+    border: solid 2px white;
+    border-radius: 10px;
+    opacity: 90%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+}
+
+#play:hover {
+    opacity: 100%;
+}
+
+#play:active {
+    transform: scale(95%);
+}
+
+#score {
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 24px;
+    top: 20px;
+    color: white;
+    left: 17px;
+}
+#hScore {
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 24px;
+    top: -22px;
+    color: white;
+    left: 319px;
+}
+
+h2 {
+    display: inline-block;
+}
+p {
+    display: inline-block;
+    margin-left: 1rem;
+}
